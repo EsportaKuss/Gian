@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2nlj6e11qty4"]
+
+[ext_resource type="Texture2D" uid="uid://dmu5wlwsoshdg" path="res://test/WhatsApp Image 2024-05-13 at 12.24.06 AM.jpeg" id="1_40n22"]
+
+[node name="InteractiveImage" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1760.0
+offset_bottom = 646.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_40n22")
+stretch_mode = 5
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 989.0
+offset_top = 127.0
+offset_right = 1142.0
+offset_bottom = 179.0
