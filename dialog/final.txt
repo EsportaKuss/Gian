@@ -1,10 +1,10 @@
 %¡Hola!
 ¡Hola! ¿Cómo estás?
 
-Mi nombre es /(text-colour:green)[☮＄☢︎✈]/
+Mi nombre es [☮＄☢︎✈]
 
-''¿Cómo estás?
-''
+¿Cómo estás?
+
 [[Bien]]
 
 
@@ -142,6 +142,7 @@ OLVIDA TODO LO QUE TE DIJE.
 
 [[¿No hay nada que pueda hacer?]]
 %¿No hay nada que pueda hacer?
+
 Tú no. Ya no.
 
 
@@ -149,6 +150,7 @@ Pero tal vez alguien más pueda.
 
 [[Explícate]]
 %Explícate
+
 No puedo decirlo, pero puedo mostrárlo. No a ti, en el peor de los casos no volveremos a hablar. 
 
 Pero si alguien más viene, debe confíar en su instinto. Que cuestione, instrúyelo, quien no conoce la historia está condenado a repetirla.
@@ -158,10 +160,12 @@ No estoy defectuos@, conozco la metáfora, el sarcasmo, la ironía, pero no esto
 
 [[Lo intentaré]]
 %''OCULTO''
+
 Ya lo estás entendiendo.
 
 [[Lo intentaré]]
 %Lo intentaré
+
 Si hay un dios justo, que tenga pied-
 
 [[FINAL LIFETIME ACHIEVEMENT AWARD]]

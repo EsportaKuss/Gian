@@ -5,6 +5,7 @@ extends EditorScript
 # Called when the script is executed (using File -> Run in Script Editor).
 func _run():
 	clean_dialog()
+	EditorInterface.get_resource_filesystem().scan()
 	pass
 	
 func clean_dialog():
