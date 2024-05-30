@@ -18,7 +18,7 @@ func create_dictionary():
 	for line: String in content.split("\n"):
 		if line.begins_with("%"):
 			var clean_line = line.replace("%","")
-			postit[clean_line] = {"dialog":"", "option":[],"image":""}
+			postit[clean_line] = {"dialog":"", "option":[],"BG":"", "CH":""}
 			current_keyword = clean_line
 		else:
 			if not current_keyword.is_empty():
