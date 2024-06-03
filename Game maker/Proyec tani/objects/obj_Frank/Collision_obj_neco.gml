@@ -1,0 +1,1 @@
+Hurt_Player(point_direction(x,y,obj_neco.x,obj_neco.y), enemyForceTouch, 1)
