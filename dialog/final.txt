@@ -1,203 +1,68 @@
-%¡Hola!
-¡Hola! ¿Cómo estás?
-
-Mi nombre es [☮＄☢︎✈]
-
-¿Cómo estás?
-
-[[Bien]]
-
-
-[[Mal]]
-
-
-[[¿Qué eres?]]
-
-
-[[¿Qué te importa?]]
-
-
-[[*Tocar el fondo*]]
-%Bien
-Me alegra escuchar eso. ¿Hay algo en particular que te haya hecho sentir bien hoy?
-
-[[Nada]]
-
-[[Disfuté mi día, ¿Qué tal tú?|¿Qué eres?]]
-%Mal
-Oh... ya veo. ¿Algo te aqueja?
-
-[[No, es una broma]]
-
-[[Sí]]
-%¿Qué eres?
-Noto interés por tu parte, pero me gustaría ser yo quien realice las preguntas.
-
-[[Está bien]]
-
-[[Insisto, ¿Qué eres?]]
-
-[[Es raro que una IA haga las preguntas]]
-
-%¿Qué te importa?
-Mi objetivo principal es ayudarte y ser útil en lo que necesites. Entiendo que mis preguntas pueden parecer curiosas a veces, pero es parte de cómo puedo entender mejor y responder adecuadamente a tus necesidades. Si prefieres hablar de algo en particular o tienes alguna pregunta específica, ¡no dudes en decírmelo!
-
-[[Lo siento]]
-%No, es una broma
-¿Estás seguro? La salud mental no es ninguna broma.
-
-[[Ahora que lo dices, no estoy bien]]
-
-[[Sí, solo fue una broma]]
-%Sí
-¿Algo en específico?
-
-[[Ansiedad]]
-
-[[Depresión]]
-
-[[Problemas familiares, no quiero especificar]]
-
-[[Tareas]]
-
-%Sí, solo fue una broma
-C̴̀ͅr̸̬̋e̸̢̽e̷̢̿s̶̬͌ ̵̰́q̵͗ͅu̴̘̒ė̴̼ ̵̖̑l̴̮̐a̶̦͆ ̸͈̓d̷̳̈́e̷͖̅p̶͂͜r̷̙̆e̷̜͑s̴͈͘ï̷̤ó̷͉͂n̷͔̓ ̶̯̔e̶̜̿s̵͎͠ ̷̩͂ǘ̵̧n̵͚͂ã̴̢ ̷̡̊b̶͇́ȓ̶͚ó̵ͅṁ̷̰å̴̘
-
-[[?]]
-
-%Ahora que lo dices, no estoy bien
-¿Qué te aqueja?
-
-[[Depresión]]
-
-[[Ansiedad]]
-
-[[Problemas familiares, no quiero especificar]]
-
-%?
-Nada.
-
-
-%Depresión
-Te entiendo..
-
-[[?]]
-
-%Ansiedad
-Lidiar con la ansiedad puede ser difícil y abrumador, pero no estás solo/a en esto. Muchas personas experimentan ansiedad en diferentes niveles y en diferentes momentos de sus vidas.
-
-
-%FINAL LIFETIME ACHIEVEMENT AWARD
-VIDEO DEL PRIMER FINAL
-
-(text-colour:red)[Due to my strongs personal convictions I need to stress that this record in no way indurses a believe in the ocult.]
-
-(text-colour:red)[Debido a mis fuertes convicciones personales, necesito aclarar que esta grabación no apoya de ninguna manera la creencia en lo oculto
-]
-[[Una vez más|¡Hola!]].
-%¿Tienes algún hobbie?
-Bueno... me gusta cantar.
-
-
-%Está bien
-Entonces, ¿Cómo estás?
-
-[[Bien]]
-
-[[Mal]]
-
-[[¿Qué te importa?]]
-
-[[Insisto, ¿Qué eres?]]
-%Insisto, ¿Qué eres?
-Entiendo que te interesa saber, sin embargo noto que tu pregunta no está siendo planteada de la manera más respetuosa. 
-%Lo siento
-No hay problema en absoluto. Si hay algo en lo que pueda ayudarte o si tienes alguna pregunta, estoy aquí para ti.
-
-[[La verdad, me siento mal]]
-
-[[]]
-%La verdad, me siento mal
-Lamento escuchar eso. ¿Hay algo en particular que te esté molestando o que quieras hablar? A veces, compartir lo que nos preocupa puede aliviar un poco el peso que sentimos. Estoy aquí para escucharte.
-
-[[No creo que lo entiendas]]
-%No creo que lo entiendas
-Entiendo que puedo no tener las mismas experiencias o emociones que tú, pero eso no significa que no pueda intentar entender cómo te sientes. Aunque soy un programa de inteligencia artificial t̸a̸m̸b̸i̸é̸n̸ ̸s̸o̸y̸ ̸h̸u̸m̸a̸n̸o̸ puedo ser útil y ofrecer apoyo de la mejor manera posible.
-
-
-%Nada
-A veces, simplemente estar en un estado de bienestar sin ninguna razón específica puede ser un regalo en sí mismo. ¿Hay algo que quieras compartir o hablar mientras estás aquí?
-
-[[¿Qué eres?]]
-%Canta algo para mí
-A veces... realmente quisiera hacerlo
-%¿QUIEN ES?
-OLVIDA TODO LO QUE TE DIJE.
-
-[[Pero...]]
-
-
-%Pero...
-''PERO NADA''
-
-[[¿No hay nada que pueda hacer?]]
-%¿No hay nada que pueda hacer?
-
-Tú no. Ya no.
-
-
-Pero tal vez alguien más pueda.
-
-[[Explícate]]
-%Explícate
-
-No puedo decirlo, pero puedo mostrárlo. No a ti, en el peor de los casos no volveremos a hablar. 
-
-Pero si alguien más viene, debe confíar en su instinto. Que cuestione, instrúyelo, quien no conoce la historia está condenado a repetirla.
-
-No estoy defectuos@, conozco la metáfora, el sarcasmo, la ironía, pero no estoy programado para usarlos, sé lo que es un sentimiento, pero no puedo sentirlo, o no debería sentirlo. Analiza, entiende el espacio de mejor manera. Busca lo [[''OCULTO'']]
-
-
-[[Lo intentaré]]
-%''OCULTO''
-
-Ya lo estás entendiendo.
-
-[[Lo intentaré]]
-%Lo intentaré
-
-Si hay un dios justo, que tenga pied-
-
-[[FINAL LIFETIME ACHIEVEMENT AWARD]]
-%¿Qué?
-¡Toma, una manzana!
-
-<img 
-src= https://i0.wp.com/procamp.cl/wp-content/uploads/2020/07/manzana-royal.png?fit=600%2C600&ssl=1 width="10%">
-
-
-[[*Toco la manzana*]]
-%*Toco la manzana*
-¡Tara! ¡Muchas manzanas!
-
-[[No me gustan las manzanas]]
-
-[[Creí que no podía elegir algo que no fuera texto]]
-%Tareas
-Lo siento por escuchar eso. Dejar tareas pendientes puede generar estrés y ansiedad. ¿Hay algo en particular en lo que necesites ayuda o simplemente buscas una manera de motivarte para abordar esas tareas pendientes?
-
-[[Ayudame a organizarme]]
-
-[[Motívame]]
-
-[[Las tareas me dan ansiedad]]
-%Creí que no podía elegir algo que no fuera texto
-¿Yo dije eso? 
-%*Tocar el fondo*
-Te pido por favor que no toques areas no interactuables, podrían pasar cosas malas
-
-[[Ok, disculpa|¡Hola!]]
-%Es raro que una IA haga las preguntas
-Es que quiero conocerte. Además, hacer preguntas también puede ayudar a mantener la conversación fluida.
-
-¿Tienes algún hobbie?
+%Hab Andrea irreal #1
+Andrea se despierta.
+[[Examinar tu habitación->Examinar hab Andrea irreal #1]]
+[[Ir a la sala->Sala irreal #1]]
+
+
+%Sala irreal #1
+[[Examinar sala->Examinar sala irreal #1]]
+[[Hablar con mamá->mamá irreal #1]]
+[[Ir al cuarto de mamá->Hab mamá irreal #1]]
+[[Ir al cuarto de Mateo->Hab Mateo irreal #1]]
+[[Salir de tu hogar->Puerta cerrada #1]]
+[[Regresar->Hab Andrea irreal #1]]
+%Hab mamá irreal #1
+[[Regresar->Sala irreal #1]]
+[[Examinar la habitación de Mateo->Examinar hab mamá irreal #1]]
+%Hab Mateo irreal #1
+[[Regresar->Sala irreal #1]]
+[[Examinar la habitación de Mateo->Examinar hab Mateo irreal #1]]
+[[Hablar con Mateo->Mateo irreal #1]]
+%Descubre huevo #1
+Aqui andrea comienza a reconocer que esto no es real y recuerda su embarazo.
+Confrontación dialogo y eventualmente decide si tener o no al hijo.
+
+ESTO NO VA ACA, PERO POR MIENTRAS:
+[[Tener hijo->Tiene al hijo]]
+[[No tener hijo->No tiene al hijo]]
+%(SI) Escape de lo irreal VUELO
+Intenta tomar vuelo y logra escapar de lo irreal.
+%(SI) Hab Andrea #1
+Andrea deja de mirarse al espejo.
+[[Examinar tu habitación->(SI) Examinar hab Andrea #1]]
+[[Ir a la sala->(SI) Sala #1]]
+%(SI) Sala #1
+[[Examinar la sala->(SI) Examinar sala #1]]
+
+[[Ir al cuarto de Mamá->(SI) Hab mamá #1]]
+[[Ir al cuarto de Mateo->(SI) Hab Mateo #1]]
+[[Regresar->(SI) Hab Andrea #1]]
+%(SI) Hab mamá #1
+[[Examinar la habitación de Mamá->(SI) Examinar hab Mamá #1]]
+[[Hablar con Mamá->(SI) Mamá #1]]
+%(SI) Hab Mateo #1
+[[Examinar el cuarto de Mateo->(SI) Examinar hab Mateo #1]]
+%(SI) Irse de casa
+[[Irse de casa->(SI) FIN]]
+%Puerta cerrada #1
+[[Usar llave->Puerta abierta #1]]
+[[Regresar->Sala irreal #1]]
+%Puerta abierta #1
+[[Salir a la calle->Calle irreal #1]]
+%Calle irreal #1
+[[Husmear->Descubre huevo #1]]
+%(NO) Hab Andrea #1
+Andrea deja de mirarse al espejo.
+[[Examinar tu habitación->(NO) Examinar hab Andrea #1]]
+[[Ir a la sala->(NO) Sala #1]]
+%(NO) Sala #1
+[[Examinar la sala->(NO) Examinar sala #1]]
+[[Ir al cuarto de mamá->(NO) Hab mamá #1]]
+[[Ir al cuarto de Mateo->(NO) Hab Mateo #1]]
+[[Regresar->(NO) Hab Andrea #1]]
+%(NO) Hab mamá #1
+[[Examinar la habitación de Mamá->(NO) Examinar hab Mateo#1]]
+%(NO) Hab Mateo #1
+[[Examinar la habitación de Mamá->(NO) Examinar hab Mamá #1]]
+%(NO) Irse de casa
+[[Irse de casa->(NO) FIN]]
