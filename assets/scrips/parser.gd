@@ -5,7 +5,7 @@ extends Node
 @onready var option_list = dialog.get_node("Options") as OptionList
 func _ready():
 	Global.dialog_dictionary =create_dictionary()
-	read_next_dialog("¡Hola!")
+	read_next_dialog("Hab Andrea irreal #1")
 	option_list.option_pressed.connect(on_option_pressed)
 func load_text():
 	var file = FileAccess.open("res://dialog/final.txt", FileAccess.READ)

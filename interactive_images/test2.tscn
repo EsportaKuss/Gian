@@ -1,14 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1vmdkcwcvy43"]
+[gd_scene load_steps=2 format=3 uid="uid://d1vmdkcwcvy43"]
 
 [ext_resource type="PackedScene" uid="uid://c2nlj6e11qty4" path="res://scene/ui/interactive_image.tscn" id="1_8cgiy"]
-[ext_resource type="Texture2D" uid="uid://csf3gaquijd1d" path="res://test/images (1).jpeg" id="2_wns8y"]
 
 [node name="InteractiveImage" instance=ExtResource("1_8cgiy")]
 
-[node name="TextureRect" parent="." index="0"]
-texture = ExtResource("2_wns8y")
-
-[node name="Button" parent="." index="1"]
+[node name="Button" parent="." index="2"]
 offset_left = 515.0
 offset_top = 543.0
 offset_right = 561.0
