@@ -1,0 +1,201 @@
+:: StoryTitle
+TANI
+
+
+:: StoryData
+{
+  "ifid": "49E62314-8148-4432-8761-B0023368443D",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Ir a tu habitación &1",
+  "zoom": 1
+}
+
+
+:: (NO) Escape de lo irreal VUELO {"position":"1900,1600","size":"100,100"}
+[[(NO) Ir a tu habitación #1]]
+
+
+:: (NO) Examinar la habitación de Mateo #1 {"position":"2500,1425","size":"100,100"}
+
+
+
+:: (NO) Examinar la habitación de tu madre #1 {"position":"2500,1725","size":"100,100"}
+
+
+
+:: (NO) Examinar la sala #1 {"position":"2300,1625","size":"100,100"}
+
+
+
+:: (NO) Examinar tu habitación #1 {"position":"2100,1625","size":"100,100"}
+
+
+
+:: (NO) FIN {"position":"3000,1600","size":"100,100"}
+
+
+
+:: (NO) Ir a la habitación de Mateo #1 {"position":"2500,1300","size":"100,100"}
+[[(NO) Examinar la habitación de Mateo #1]]
+
+
+:: (NO) Ir a la habitación de tu madre #1 {"position":"2500,1600","size":"100,100"}
+[[(NO) Examinar la habitación de tu madre #1]]
+
+
+:: (NO) Ir a la sala #1 {"position":"2300,1500","size":"100,100"}
+[[(NO) Examinar la sala #1]]
+[[(NO) Ir a la habitación de tu madre #1]]
+[[(NO) Ir a la habitación de Mateo #1]]
+[[(NO) Ir a tu habitación #1]]
+[[(NO) Irse de casa]]
+
+
+:: (NO) Ir a tu habitación #1 {"position":"2100,1500","size":"100,100"}
+Andrea deja de mirarse al espejo.
+[[(NO) Examinar tu habitación #1]]
+[[(NO) Ir a la sala #1]]
+
+
+:: (NO) Irse de casa {"position":"2800,1600","size":"100,100"}
+[[(NO) FIN]]
+
+
+:: (SI) Escape de lo irreal VUELO {"position":"1900,900","size":"100,100"}
+Intenta tomar vuelo y logra escapar de lo irreal.
+[[(SI) Ir a tu habitación #1]]
+
+
+:: (SI) Examinar la habitación de Mateo #1 {"position":"2500,1050","size":"100,100"}
+
+
+
+:: (SI) Examinar la habitación de tu madre #1 {"position":"2500,800","size":"100,100"}
+
+
+
+:: (SI) Examinar la sala #1 {"position":"2300,925","size":"100,100"}
+
+
+
+:: (SI) Examinar tu habitación #1 {"position":"2100,925","size":"100,100"}
+
+
+
+:: (SI) FIN {"position":"3100,800","size":"100,100"}
+
+
+
+:: (SI) Ir a la habitación de Mateo #1 {"position":"2500,925","size":"100,100"}
+[[(SI) Examinar la habitación de Mateo #1]]
+
+
+:: (SI) Ir a la habitación de tu madre #1 {"position":"2500,675","size":"100,100"}
+[[(SI) Examinar la habitación de tu madre #1]]
+[[(SI) Madre #1]]
+
+
+:: (SI) Ir a la sala #1 {"position":"2300,800","size":"100,100"}
+[[(SI) Examinar la sala #1]]
+
+[[(SI) Ir a la habitación de tu madre #1]]
+[[(SI) Ir a la habitación de Mateo #1]]
+[[(SI) Ir a tu habitación #1]]
+[[(SI) Irse de casa]]
+
+
+:: (SI) Ir a tu habitación #1 {"position":"2100,800","size":"100,100"}
+Andrea deja de mirarse al espejo.
+[[(SI) Examinar tu habitación #1]]
+[[(SI) Ir a la sala #1]]
+
+
+:: (SI) Irse de casa {"position":"2800,800","size":"100,100"}
+[[(SI) FIN]]
+
+
+:: (SI) Madre #1 {"position":"2625,600","size":"100,100"}
+
+
+
+:: Descubrir &1 {"position":"1400,1225","size":"100,100"}
+Aqui andrea comienza a reconocer que esto no es real y recuerda su embarazo.
+Confrontación dialogo y eventualmente decide si tener o no al hijo.
+
+ESTO NO VA ACA, PERO POR MIENTRAS:
+[[Tiene al hijo &1]]
+[[No tiene al hijo &1]]
+
+
+:: Examinar habitación de  Mateo &1 {"position":"700,1450","size":"100,100"}
+
+
+
+:: Examinar la habitación de tu mamá &1 {"position":"700,1125","size":"100,100"}
+
+
+
+:: Examinar sala &1 {"position":"450,1200","size":"100,100"}
+
+
+
+:: Examinar tu habitación &1 {"position":"200,1325","size":"100,100"}
+
+
+
+:: Ir a la habitación de Mateo &1 {"position":"700,1325","size":"100,100"}
+[[Ir a la sala &1]]
+[[Examinar habitación de  Mateo &1]]
+[[Mateo &1]]
+
+
+:: Ir a la habitación de tu mamá &1 {"position":"700,1000","size":"100,100"}
+[[Ir a la sala &1]]
+[[Examinar la habitación de tu mamá &1]]
+
+
+:: Ir a la sala &1 {"position":"450,1075","size":"100,100"}
+[[Examinar sala &1]]
+[[Mami &1]]
+[[Ir a la habitación de tu mamá &1]]
+[[Ir a la habitación de Mateo &1]]
+[[Puerta cerrada &1]]
+[[Ir a tu habitación &1]]
+
+
+:: Ir a tu habitación &1 {"position":"200,1200","size":"100,100"}
+Andrea se despierta.
+[[Examinar tu habitación &1]]
+[[Ir a la sala &1]]
+
+
+
+
+:: Mami &1 {"position":"500,700","size":"100,100"}
+
+
+
+:: Mateo &1 {"position":"850,1325","size":"100,100"}
+
+
+
+:: No tiene al hijo &1 {"position":"1600,1400","size":"100,100"}
+[[(NO) Escape de lo irreal VUELO]]
+
+
+:: Puerta cerrada &1 {"position":"675,825","size":"100,100"}
+[[Usar llave &1]]
+[[Ir a la sala &1]]
+
+
+:: Salir a la calle &1 {"position":"1200,1100","size":"100,100"}
+[[Descubrir &1]]
+
+
+:: Tiene al hijo &1 {"position":"1600,1000","size":"100,100"}
+[[(SI) Escape de lo irreal VUELO]]
+
+
+:: Usar llave &1 {"position":"1050,1100","size":"100,100"}
+[[Salir a la calle &1]]
