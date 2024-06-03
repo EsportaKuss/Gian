@@ -1,0 +1,198 @@
+:: StoryTitle
+TANI
+
+
+:: StoryData
+{
+  "ifid": "49E62314-8148-4432-8761-B0023368443D",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Hab Andrea irreal #1",
+  "zoom": 1
+}
+
+
+:: (NO) Escape de lo irreal VUELO {"position":"1900,1600","size":"100,100"}
+
+
+
+:: (NO) Examinar hab Andrea #1 {"position":"2100,1625","size":"100,100"}
+
+
+
+:: (NO) Examinar hab Mamá #1 {"position":"2500,1425","size":"100,100"}
+
+
+
+:: (NO) Examinar hab Mateo#1 {"position":"2500,1725","size":"100,100"}
+
+
+
+:: (NO) Examinar sala #1 {"position":"2300,1625","size":"100,100"}
+
+
+
+:: (NO) FIN {"position":"3000,1600","size":"100,100"}
+
+
+
+:: (NO) Hab Andrea #1 {"position":"2100,1500","size":"100,100"}
+Andrea deja de mirarse al espejo.
+[[Examinar tu habitación->(NO) Examinar hab Andrea #1]]
+[[Ir a la sala->(NO) Sala #1]]
+
+
+:: (NO) Hab Mateo #1 {"position":"2500,1300","size":"100,100"}
+[[Examinar la habitación de Mamá->(NO) Examinar hab Mamá #1]]
+
+
+:: (NO) Hab mamá #1 {"position":"2500,1600","size":"100,100"}
+[[Examinar la habitación de Mamá->(NO) Examinar hab Mateo#1]]
+
+
+:: (NO) Irse de casa {"position":"2800,1600","size":"100,100"}
+[[Irse de casa->(NO) FIN]]
+
+
+:: (NO) Sala #1 {"position":"2300,1500","size":"100,100"}
+[[Examinar la sala->(NO) Examinar sala #1]]
+[[Ir al cuarto de mamá->(NO) Hab mamá #1]]
+[[Ir al cuarto de Mateo->(NO) Hab Mateo #1]]
+[[Regresar->(NO) Hab Andrea #1]]
+
+
+:: (SI) Escape de lo irreal VUELO {"position":"1900,900","size":"100,100"}
+Intenta tomar vuelo y logra escapar de lo irreal.
+
+
+:: (SI) Examinar hab Andrea #1 {"position":"2100,925","size":"100,100"}
+
+
+
+:: (SI) Examinar hab Mamá #1 {"position":"2500,800","size":"100,100"}
+
+
+
+:: (SI) Examinar hab Mateo #1 {"position":"2500,1050","size":"100,100"}
+
+
+
+:: (SI) Examinar sala #1 {"position":"2300,925","size":"100,100"}
+
+
+
+:: (SI) FIN {"position":"3100,800","size":"100,100"}
+
+
+
+:: (SI) Hab Andrea #1 {"position":"2100,800","size":"100,100"}
+Andrea deja de mirarse al espejo.
+[[Examinar tu habitación->(SI) Examinar hab Andrea #1]]
+[[Ir a la sala->(SI) Sala #1]]
+
+
+:: (SI) Hab Mateo #1 {"position":"2500,925","size":"100,100"}
+[[Examinar el cuarto de Mateo->(SI) Examinar hab Mateo #1]]
+
+
+:: (SI) Hab mamá #1 {"position":"2500,675","size":"100,100"}
+[[Examinar la habitación de Mamá->(SI) Examinar hab Mamá #1]]
+[[Hablar con Mamá->(SI) Mamá #1]]
+
+
+:: (SI) Irse de casa {"position":"2800,800","size":"100,100"}
+[[Irse de casa->(SI) FIN]]
+
+
+:: (SI) Mamá #1 {"position":"2625,600","size":"100,100"}
+
+
+
+:: (SI) Sala #1 {"position":"2300,800","size":"100,100"}
+[[Examinar la sala->(SI) Examinar sala #1]]
+
+[[Ir al cuarto de Mamá->(SI) Hab mamá #1]]
+[[Ir al cuarto de Mateo->(SI) Hab Mateo #1]]
+[[Regresar->(SI) Hab Andrea #1]]
+
+
+:: Calle irreal #1 {"position":"1200,1100","size":"100,100"}
+[[Husmear->Descubre huevo #1]]
+
+
+:: Descubre huevo #1 {"position":"1400,1225","size":"100,100"}
+Aqui andrea comienza a reconocer que esto no es real y recuerda su embarazo.
+Confrontación dialogo y eventualmente decide si tener o no al hijo.
+
+ESTO NO VA ACA, PERO POR MIENTRAS:
+[[Tener hijo->Tiene al hijo]]
+[[No tener hijo->No tiene al hijo]]
+
+
+:: Examinar hab Andrea irreal #1 {"position":"200,1325","size":"100,100"}
+
+
+
+:: Examinar hab Mateo irreal #1 {"position":"700,1450","size":"100,100"}
+
+
+
+:: Examinar hab mamá irreal #1 {"position":"700,1125","size":"100,100"}
+
+
+
+:: Examinar sala irreal #1 {"position":"450,1200","size":"100,100"}
+
+
+
+:: Hab Andrea irreal #1 {"position":"200,1200","size":"100,100"}
+Andrea se despierta.
+[[Examinar tu habitación->Examinar hab Andrea irreal #1]]
+[[Ir a la sala->Sala irreal #1]]
+
+
+
+
+:: Hab Mateo irreal #1 {"position":"700,1325","size":"100,100"}
+[[Regresar->Sala irreal #1]]
+[[Examinar la habitación de Mateo->Examinar hab Mateo irreal #1]]
+[[Hablar con Mateo->Mateo irreal #1]]
+
+
+:: Hab mamá irreal #1 {"position":"700,1000","size":"100,100"}
+[[Regresar->Sala irreal #1]]
+[[Examinar la habitación de Mateo->Examinar hab mamá irreal #1]]
+
+
+:: Mateo irreal #1 {"position":"850,1325","size":"100,100"}
+
+
+
+:: No tiene al hijo {"position":"1600,1400","size":"100,100"}
+
+
+
+:: Puerta abierta #1 {"position":"1050,1100","size":"100,100"}
+[[Salir a la calle->Calle irreal #1]]
+
+
+:: Puerta cerrada #1 {"position":"675,825","size":"100,100"}
+[[Usar llave->Puerta abierta #1]]
+[[Regresar->Sala irreal #1]]
+
+
+:: Sala irreal #1 {"position":"450,1075","size":"100,100"}
+[[Examinar sala->Examinar sala irreal #1]]
+[[Hablar con mamá->mamá irreal #1]]
+[[Ir al cuarto de mamá->Hab mamá irreal #1]]
+[[Ir al cuarto de Mateo->Hab Mateo irreal #1]]
+[[Salir de tu hogar->Puerta cerrada #1]]
+[[Regresar->Hab Andrea irreal #1]]
+
+
+:: Tiene al hijo {"position":"1600,1000","size":"100,100"}
+
+
+
+:: mamá irreal #1 {"position":"500,700","size":"100,100"}
+
