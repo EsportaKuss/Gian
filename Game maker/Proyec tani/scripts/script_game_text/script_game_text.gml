@@ -7,6 +7,14 @@ switch(_text_id) {
 	case "intro":
 	scr_text("Hola", "Andrea");
 	scr_text("Hola2", "Andrea");
+with (obj_textbox) 
+	{
+		global.room_to = rm_andrea_i;
+		room_change = true;
+		go_to_x = 286;
+		go_to_y = 192;
+	}
+	
 	break;
 	
 	case "bed":
