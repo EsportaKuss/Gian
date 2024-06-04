@@ -81,7 +81,7 @@ sprite_index = sprite[face];
 
 
 
-//wall nya
+//interact obj coll
 
 var _coll = instance_place(x + xspd, y,  obj_interect_par);
 if instance_place(x + xspd, y, obj_interect_par) != noone && _coll.coll = true

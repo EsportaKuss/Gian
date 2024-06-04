@@ -1,3 +1,3 @@
 coll = true;
 depth = -bbox_bottom;
-text_id = "";
+text_id = noone;

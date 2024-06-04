@@ -142,18 +142,18 @@ if accept_key
 			if option_number > 0 {
 				create_textbox(option_link_id[option_pos]);
 				}
-			if bedroom_door == true && wait_time <= 0 {
-					wait_time = 5;
-					instance_create_depth(286,232,-1,obj_kicked_out)
-					instance_destroy(obj_neco)
-					with (obj_camera) {follow = obj_kicked_out;}
-					room_goto_next()
-				}
+				
+			if obj_neco.room_to != noone && wait_time < 0 
+			{
+				script_rooms(obj_neco.room_to,obj_neco,go_to_x,go_to_y)
+			}
+			
 			if layer_sequence_is_paused(global.CurrentCutscene) {layer_sequence_play(global.CurrentCutscene);}
 			alpha = 0;
 			instance_destroy();
 			}
 		}
+		
 	//if not done typing
 	else 
 		{
@@ -162,7 +162,7 @@ if accept_key
 		}
 	}
 
-if bedroom_door == true {wait_time--;}
+if room_change == true {wait_time--;}
 
 //---------------------draw textbox------------------------	
 var _txtb_x = textbox_x + txt_x_offset[page];

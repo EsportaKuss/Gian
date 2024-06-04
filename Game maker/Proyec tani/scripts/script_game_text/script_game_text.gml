@@ -15,12 +15,10 @@ switch(_text_id) {
 	break;
 	
 	case "window drawing":
-	scr_text("It's a poorly drawn window.");
 	scr_text("Heh, I'm SO good at drawing.", "niky - smug");
 	break;
 	
 	case "dinner plate":
-	scr_text("Es el plato de la semana pasada");
 	scr_text("Lo guardaste como recuerdo...");
 	break;
 	
@@ -34,11 +32,8 @@ switch(_text_id) {
 				text_id = "open closet";
 				image_index = 1
 				}
-			scr_text("Solo habia un cupón.");
-			scr_text("BUENAAA, 25% de descuento para una Big Mac(tm).",  "niky - surprised");
-			scr_text("No te das cuenta que el cupón es del 2002.");
 			scr_text("Obtuviste cupón.");
-				scr_text_color(12, 25, c_yellow, c_yellow, c_yellow, c_yellow);
+				scr_text_color(10, 25, c_yellow, c_yellow, c_yellow, c_yellow);
 			InventoryAdd(obj_inventory, 0);
 		break;
 			case "closet - leave":
@@ -63,10 +58,7 @@ switch(_text_id) {
 			with obj_bd_door {
 			text_id = "bdrm door peso";
 			}
-			scr_text("Encontraste una moneda.");
 			scr_text("VAMOOOS",  "niky - surprised");
-			scr_text("Oh.", "niky");
-			scr_text("Son 5 centimos.", "niky");
 			scr_text("Obtuviste 5 centimos.");
 				scr_text_color(8, 23, c_yellow, c_yellow, c_yellow, c_yellow);
 			global.Peso = true;
@@ -92,25 +84,15 @@ switch(_text_id) {
 				scr_text("¿CUANTA VECES TENGO QUE DEC-", "niky - angry");
 					scr_text_shake(0,36);
 				scr_text("Renta.", "owner");
-				scr_text("ah.", "niky - shocked");
-				scr_text("Renta.", "owner");
-				scr_text("Uh...", "niky - shocked");
-				scr_text("El siguente mes?", "niky - shocked");
-				scr_text("You haven't paid rent since you got here.", "owner");
-				scr_text("THAT'S NOT TRUE. I paid you once.", "niky - angry");
-				scr_text("With a sticker.", "owner");
-				scr_text("It had sentimental value.", "niky - smug");
-				scr_text("...", "owner");
-				scr_text("Leave.", "owner");
-				scr_text("what", "niky - shocked");
-				scr_text("You don't live here anymore.", "owner");
-				scr_text("...", "niky - shocked");
-				scr_text("...", "niky - ultra shocked");
-				scr_text("...", "niky - ultra shocked");
 				scr_text("uwu pwease mister owner may I stay here I have no job uwu uwu :33", "niky - uwu");
 					scr_text_float(0, 65)
 				with obj_textbox 
-				{	bedroom_door = true	}
+				{	
+					obj_neco.room_to = rm_streets;
+					room_change = true;
+					go_to_x = 286;
+					go_to_y = 192;
+				}
 				break;
 				case "bdrm door - no":
 				scr_text("That kid can wait.", "niky");
@@ -125,24 +107,6 @@ switch(_text_id) {
 				case "bdrm door peso - open":
 				with obj_bd_door {image_index = 1}
 				audio_play_sound(snd_door_opening, 8, false)
-				scr_text("HOW MANY TIMES DO I HAVE TO TELL YOU-", "niky - angry");
-					scr_text_shake(0,36);
-				scr_text("Rent.", "owner");
-				scr_text("ah.", "niky - shocked");
-				scr_text("Rent.", "owner");
-				scr_text("Uh...", "niky - shocked");
-				scr_text("Can't I pay you next month?", "niky - shocked");
-				scr_text("You haven't paid rent since you got here.", "owner");
-				scr_text("THAT'S NOT TRUE. I paid you once.", "niky - angry");
-				scr_text("With a sticker.", "owner");
-				scr_text("It had sentimental value.", "niky - smug");
-				scr_text("...", "owner");
-				scr_text("Leave.", "owner");
-				scr_text("what", "niky - shocked");
-				scr_text("You don't live here anymore.", "owner");
-				scr_text("...", "niky - shocked");
-				scr_text("...", "niky - ultra shocked");
-				scr_text("...", "niky - ultra shocked");
 				scr_text("I have an argentinian peso does that count", "niky - peso");
 				InventoryRemove(obj_inventory, 1);
 				with obj_textbox 

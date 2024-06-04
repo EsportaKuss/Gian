@@ -25,3 +25,5 @@ state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
 
 animationEndScript = -1;
+
+room_to = noone;

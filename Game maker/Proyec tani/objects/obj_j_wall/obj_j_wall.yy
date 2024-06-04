@@ -9,10 +9,7 @@
     "name":"Meta objs",
     "path":"folders/Objects/Meta objs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interect_par",
-    "path":"objects/obj_interect_par/obj_interect_par.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

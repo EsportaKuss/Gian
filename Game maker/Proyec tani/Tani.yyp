@@ -93,6 +93,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_warp_fx","path":"objects/obj_warp_fx/obj_warp_fx.yy",},},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},
+    {"id":{"name":"rm_andrea_i","path":"rooms/rm_andrea_i/rm_andrea_i.yy",},},
     {"id":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
     {"id":{"name":"rm_streets","path":"rooms/rm_streets/rm_streets.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
@@ -107,6 +108,7 @@
     {"id":{"name":"script_interctable_functions","path":"scripts/script_interctable_functions/script_interctable_functions.yy",},},
     {"id":{"name":"script_inventory_functions","path":"scripts/script_inventory_functions/script_inventory_functions.yy",},},
     {"id":{"name":"script_macros","path":"scripts/script_macros/script_macros.yy",},},
+    {"id":{"name":"script_rooms","path":"scripts/script_rooms/script_rooms.yy",},},
     {"id":{"name":"script_textbox_functions","path":"scripts/script_textbox_functions/script_textbox_functions.yy",},},
     {"id":{"name":"sq_Frank_Encounter","path":"sequences/sq_Frank_Encounter/sq_Frank_Encounter.yy",},},
     {"id":{"name":"test","path":"sequences/test/test.yy",},},
@@ -225,6 +227,7 @@
     {"roomId":{"name":"rm_streets","path":"rooms/rm_streets/rm_streets.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
+    {"roomId":{"name":"rm_andrea_i","path":"rooms/rm_andrea_i/rm_andrea_i.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

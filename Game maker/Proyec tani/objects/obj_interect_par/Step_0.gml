@@ -8,7 +8,7 @@
 
 	{
 
-		if keyboard_check_pressed(ord("Z")) && !instance_exists(obj_textbox)
+		if keyboard_check_pressed(ord("Z")) && !instance_exists(obj_textbox) && text_id != noone
 		{
 		create_textbox(text_id);
 		}
