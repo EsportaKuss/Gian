@@ -4,6 +4,11 @@ function script_game_text(_text_id){
 switch(_text_id) {
 	
 //-----------------------------BEDROOM--------------------------//
+	case "intro":
+	scr_text("Hola", "Andrea");
+	scr_text("Hola2", "Andrea");
+	break;
+	
 	case "bed":
 	scr_text("Tu cama.");
 	scr_text("Esta llena de plumas...");
@@ -88,7 +93,7 @@ switch(_text_id) {
 					scr_text_float(0, 65)
 				with obj_textbox 
 				{	
-					obj_neco.room_to = rm_streets;
+					global.room_to = rm_streets;
 					room_change = true;
 					go_to_x = 286;
 					go_to_y = 192;

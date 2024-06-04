@@ -14,3 +14,4 @@ global.NikyHealth = global.MaxHealth;
 global.iLifted = noone;
 
 global.spin = 0;
+global.room_to = noone;

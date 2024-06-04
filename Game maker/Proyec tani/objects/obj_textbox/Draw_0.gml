@@ -142,15 +142,15 @@ if accept_key
 			if option_number > 0 {
 				create_textbox(option_link_id[option_pos]);
 				}
-				
-			if obj_neco.room_to != noone && wait_time < 0 
+			
+			if global.room_to != noone && wait_time < 0 
 			{
-				script_rooms(obj_neco.room_to,obj_neco,go_to_x,go_to_y)
+				script_rooms(global.room_to,obj_neco,go_to_x,go_to_y)
 			}
 			
 			if layer_sequence_is_paused(global.CurrentCutscene) {layer_sequence_play(global.CurrentCutscene);}
 			alpha = 0;
-			instance_destroy();
+			instance_destroy(); //borra textbox :3
 			}
 		}
 		
