@@ -132,6 +132,11 @@ function scr_text(_string){
 			speaker_sprite[page_number] = spr_Frank_talk;
 			snd[page_number] = snd_frank_voice;
 		break;
+		
+		case "Andrea":
+		speaker_sprite[page_number] = spr_retrato_andrea;
+		snd[page_number] = snd_niky_voice;
+		break;
 		}
 	}
 	

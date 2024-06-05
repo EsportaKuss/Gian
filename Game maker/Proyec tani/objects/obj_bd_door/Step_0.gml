@@ -20,7 +20,7 @@ if instance_exists(obj_neco)
 	}
 }
 
-if pause_time <= 0 && image_index == 0{
-audio_play_sound(snd_door, 1, false);
-pause_time = 1000;
-} else {pause_time--;}
+//if pause_time <= 0 && image_index == 0{
+//audio_play_sound(snd_door, 1, false);
+//pause_time = 1000;
+//} else {pause_time--;}

@@ -5,6 +5,10 @@ switch(_text_id) {
 	
 //-----------------------------INTRO--------------------------//
 	case "intro":
+	with (obj_textbox) {
+	x_displacement_spr = 20;
+	y_displacement_spr = 120;
+	}
 	scr_text("Hola", "Andrea");
 	scr_text("Hola2", "Andrea");
 with (obj_textbox) 
@@ -80,7 +84,7 @@ with (obj_textbox)
 		}
 		break;
 	
-	//a cuarto mama_i
+	//a cuarto mama_i y regreso a sala_i
 		case "sala_i_to_mama_i":
 	 scr_text("Quieres salir?");
 		 scr_option("Si","sala_i - mama_i")
@@ -96,7 +100,20 @@ with (obj_textbox)
 		}
 		break;
 	
+	case "mama_i_to_sala_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","mama_i - sala_i")
+		 scr_option("No","quedarte")
+	break;
 	
+		case "mama_i - sala_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_sala_i;
+		target_x = 50;
+		target_y = 150;
+		}
+		break;
 		
 		//a cuarto mateo_i y regreso a sala_i
 		case "sala_i_to_mateo_i":
@@ -129,6 +146,29 @@ with (obj_textbox)
 		target_y = 150;
 		}
 		break;
+		
+		
+		
+		//a calle_i ***y regreso a sala_i
+		
+		case "sala_i_to_calle_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","sala_i - calle_i")
+		 scr_option("No","quedarte")
+	break;
+	
+		case "sala_i - calle_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_calle_i;
+		target_x = 161;
+		target_y = 50;
+		}
+		break;
+		
+		
+		
+		
 		
 		////previous room
 	

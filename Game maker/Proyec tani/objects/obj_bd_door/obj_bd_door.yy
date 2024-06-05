@@ -9,8 +9,8 @@
   "name":"obj_bd_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bedroom",
-    "path":"folders/Objects/Bedroom.yy",
+    "name":"Cuarto Andrea",
+    "path":"folders/Objects/Cuarto Andrea.yy",
   },
   "parentObjectId":null,
   "persistent":false,

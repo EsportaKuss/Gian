@@ -6,8 +6,8 @@
   "name":"obj_stool",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bedroom",
-    "path":"folders/Objects/Bedroom.yy",
+    "name":"Cuarto Andrea",
+    "path":"folders/Objects/Cuarto Andrea.yy",
   },
   "parentObjectId":{
     "name":"obj_interect_par",
