@@ -45,3 +45,7 @@ text_pause_time = 12;
 wait_time = 5;
 room_change = false;
 blank = false;
+
+//imagen
+x_displacement_spr = 0;
+y_displacement_spr = 0;

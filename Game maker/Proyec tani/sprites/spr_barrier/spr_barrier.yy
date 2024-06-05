@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sala",
-    "path":"folders/Sprites/Rooms/Sala.yy",
+    "name":"Cuarto Sala",
+    "path":"folders/Sprites/Rooms/Cuarto Sala.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -6,8 +6,8 @@
   "name":"obj_watcher",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sala",
-    "path":"folders/Objects/Sala.yy",
+    "name":"Cuarto Sala",
+    "path":"folders/Objects/Cuarto Sala.yy",
   },
   "parentObjectId":{
     "name":"obj_interect_par",

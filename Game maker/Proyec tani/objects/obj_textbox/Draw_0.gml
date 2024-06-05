@@ -188,7 +188,7 @@ if speaker_sprite[page] != noone
 	var _speaker_x = textbox_x + speaker_x_offset[page];
 	if speaker_side[page] == -1 {_speaker_x += sprite_width};
 	//draw speaker
-	draw_sprite_ext(sprite_index, image_index, _speaker_x, 0 + _view_y, speaker_side[page], 1, 0, c_white, alpha);
+	draw_sprite_ext(sprite_index, image_index, _speaker_x + x_displacement_spr, 0 + _view_y + y_displacement_spr, speaker_side[page], 1, 0, c_white, alpha);
 	if alpha < 1 {alpha += 0.2};
 	}
 
