@@ -29,7 +29,7 @@
   "origin":9,
   "parent":{
     "name":"Niky",
-    "path":"folders/Sprites/Niky.yy",
+    "path":"folders/Sprites/Personajes/Niky.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

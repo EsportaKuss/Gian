@@ -100,7 +100,7 @@
   "origin":9,
   "parent":{
     "name":"Animation",
-    "path":"folders/Sprites/Niky/Animation.yy",
+    "path":"folders/Sprites/Personajes/Niky/Animation.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

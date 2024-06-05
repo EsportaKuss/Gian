@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Dialogue",
-    "path":"folders/Sprites/Niky/Dialogue.yy",
+    "path":"folders/Sprites/Personajes/Niky/Dialogue.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

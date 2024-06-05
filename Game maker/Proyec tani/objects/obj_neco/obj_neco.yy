@@ -12,8 +12,8 @@
   "name":"obj_neco",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Charac",
+    "path":"folders/Objects/Charac.yy",
   },
   "parentObjectId":null,
   "persistent":true,
