@@ -14,3 +14,4 @@ global.NikyHealth = global.MaxHealth;
 global.iLifted = noone;
 global.spin = 0;
 global.room_to = noone;
+audio_play_sound(snd_bg_music,1,1);

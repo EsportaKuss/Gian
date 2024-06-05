@@ -247,7 +247,7 @@ with (obj_textbox)
 		case "mami_i_1":
 		with (obj_textbox) 
 				{
-				x_displacement_spr = 20;
+				x_displacement_spr = 30;
 				y_displacement_spr = 130;
 				}
 		scr_text("¡HIJITA! ¿Qué haces?");
@@ -281,7 +281,7 @@ with (obj_textbox)
 		case "mama_i_v1_1":
 		with (obj_textbox) 
 				{
-				x_displacement_spr = 20;
+				x_displacement_spr = 30;
 				y_displacement_spr = 130;
 				}
 			scr_text("Te quiero mucho Andrea.","Mama");
@@ -290,7 +290,33 @@ with (obj_textbox)
 			case "mama_i_v2_1":
 			scr_text("...");
 			break;
-			
+		//-----------------------------CUARTO CALLE --------------------------//
+		case "warp calle":
+		with (obj_textbox) 
+	{
+		global.room_to = rm_calle_2_i;
+		room_change = true;
+		go_to_x = 186;
+		go_to_y = 192;
+	}
+	break;
+	
+		case "huevo":
+		
+		scr_text("TODO ES TU CULPA.");
+		scr_text_shake(0,30);
+	break;
+		
+		case "warp calle regreso":
+		with (obj_textbox) 
+	{
+		global.room_to = rm_calle_i;
+		room_change = true;
+		go_to_x = 1300;
+		go_to_y = 40;
+		}
+		break;
+		
 		////previous room
 	case "mouse hole":
 	scr_text("Un agujero de ratón");
