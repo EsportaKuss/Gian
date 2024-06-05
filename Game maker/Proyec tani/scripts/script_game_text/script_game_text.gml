@@ -16,24 +16,24 @@ with (obj_textbox)
 	}
 	break;
 	
-		//-----------------------------BEDROOM--------------------------//
+		//-----------------------------BEDROOM IRREAL--------------------------//
 	 case "andrea_i_to_sala_i":
 	 scr_text("Quieres salir?");
-		 scr_option("Si","salir - sala_i")
+		 scr_option("Si","andrea_i - sala_i")
 		 scr_option("No","quedarte")
 	break;
-	
-		case "salir - sala_i":
+		//a sala_i
+		case "andrea_i - sala_i":
 		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
 		{
 		target_rm = rm_sala_i;
-		target_x = 230;
+		target_x = 240;
 		target_y = 120;
 		}
 		break;
 	
 		case "quedarte":
-		scr_text("No hay razón para salir.");
+		scr_text("Estas feliz quedandote aca.");
 		break;
 	
 	case "bed":
@@ -41,42 +41,7 @@ with (obj_textbox)
 	scr_text("Esta llena de plumas...");
 	break;
 	
-	//-----------------------------SALA--------------------------//
-	
-	case "sala_i_to_andrea_i":
-	 scr_text("Quieres salir?");
-		 scr_option("Si","salir - andrea_i")
-		 scr_option("No","quedarte")
-	break;
-	
-		case "salir - andrea_i":
-		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
-		{
-		target_rm = rm_andrea_i;
-		target_x = 107;
-		target_y = 120;
-		}
-		break;
-	
-		
-		
-		////previous room
-	
-	
-	case "mouse hole":
-	scr_text("Un agujero de ratón");
-	global.MouseHole = 1;
-	break;
-	
-	case "window drawing":
-	scr_text("Heh, I'm SO good at drawing.", "niky - smug");
-	break;
-	
-	case "dinner plate":
-	scr_text("Lo guardaste como recuerdo...");
-	break;
-	
-	case "closet":
+	case "closet_i":
 	scr_text("Revisar closet?");
 		scr_option("Revisar", "closet - check")
 		scr_option("Dejar", "closet - leave")
@@ -97,6 +62,91 @@ with (obj_textbox)
 	case "open closet":
 	scr_text("Solo se mantiene la memoria del cupón.");
 	break;
+	
+	//-----------------------------SALA IRREAL --------------------------//
+	//a andrea_i
+	case "sala_i_to_andrea_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","sala_i - andrea_i")
+		 scr_option("No","quedarte")
+	break;
+	
+		case "sala_i - andrea_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_andrea_i;
+		target_x = 107;
+		target_y = 120;
+		}
+		break;
+	
+	//a cuarto mama_i
+		case "sala_i_to_mama_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","sala_i - mama_i")
+		 scr_option("No","quedarte")
+	break;
+	
+		case "sala_i - mama_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_mama_i;
+		target_x = 230;
+		target_y = 120;
+		}
+		break;
+	
+	
+		
+		//a cuarto mateo_i y regreso a sala_i
+		case "sala_i_to_mateo_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","sala_i - mateo_i")
+		 scr_option("No","quedarte")
+	break;
+	
+		case "sala_i - mateo_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_mateo_i;
+		target_x = 110;
+		target_y = 115;
+		}
+		break;
+		
+
+		case "mateo_i_to_sala_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","mateo_i - sala_i")
+		 scr_option("No","quedarte")
+	break;
+	
+		case "mateo_i - sala_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_sala_i;
+		target_x = 340;
+		target_y = 150;
+		}
+		break;
+		
+		////previous room
+	
+	
+	case "mouse hole":
+	scr_text("Un agujero de ratón");
+	global.MouseHole = 1;
+	break;
+	
+	case "window drawing":
+	scr_text("Heh, I'm SO good at drawing.", "niky - smug");
+	break;
+	
+	case "dinner plate":
+	scr_text("Lo guardaste como recuerdo...");
+	break;
+	
+	
 		
 	case "box":
 	scr_text("Una caja.");
