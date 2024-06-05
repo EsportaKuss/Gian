@@ -20,7 +20,7 @@ menu_option[1, 2] = "Atrás ";
 
 up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
-accept_key = keyboard_check_pressed(ord("Z"))
+accept_key = keyboard_check_pressed(ord("C"))
 
 op_length = array_length(menu_option[menu_level]);
 

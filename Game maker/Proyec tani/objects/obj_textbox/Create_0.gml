@@ -44,3 +44,4 @@ text_pause_time = 12;
 //events
 wait_time = 5;
 room_change = false;
+blank = false;

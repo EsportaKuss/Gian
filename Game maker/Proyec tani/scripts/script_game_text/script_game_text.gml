@@ -3,7 +3,7 @@ function script_game_text(_text_id){
 	if global.Language == false {
 switch(_text_id) {
 	
-//-----------------------------BEDROOM--------------------------//
+//-----------------------------INTRO--------------------------//
 	case "intro":
 	scr_text("Hola", "Andrea");
 	scr_text("Hola2", "Andrea");
@@ -11,16 +11,57 @@ with (obj_textbox)
 	{
 		global.room_to = rm_andrea_i;
 		room_change = true;
-		go_to_x = 286;
+		go_to_x = 186;
 		go_to_y = 192;
 	}
-	
 	break;
+	
+		//-----------------------------BEDROOM--------------------------//
+	 case "andrea_i_to_sala_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","salir - sala_i")
+		 scr_option("No","quedarte")
+	break;
+	
+		case "salir - sala_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_sala_i;
+		target_x = 230;
+		target_y = 120;
+		}
+		break;
+	
+		case "quedarte":
+		scr_text("No hay razón para salir.");
+		break;
 	
 	case "bed":
 	scr_text("Tu cama.");
 	scr_text("Esta llena de plumas...");
 	break;
+	
+	//-----------------------------SALA--------------------------//
+	
+	case "sala_i_to_andrea_i":
+	 scr_text("Quieres salir?");
+		 scr_option("Si","salir - andrea_i")
+		 scr_option("No","quedarte")
+	break;
+	
+		case "salir - andrea_i":
+		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
+		{
+		target_rm = rm_andrea_i;
+		target_x = 107;
+		target_y = 120;
+		}
+		break;
+	
+		
+		
+		////previous room
+	
 	
 	case "mouse hole":
 	scr_text("Un agujero de ratón");

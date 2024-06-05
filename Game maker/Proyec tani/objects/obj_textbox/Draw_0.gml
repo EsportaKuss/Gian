@@ -1,7 +1,9 @@
+
+
+
 depth = -99999
 
-accept_key = keyboard_check_pressed(ord("Z"));
-
+accept_key = keyboard_check_pressed(ord("C"));
 textbox_x = camera_get_view_x(view_camera[0]);
 textbox_y = camera_get_view_y(view_camera[0]) + 174;
 
@@ -86,8 +88,14 @@ if setup == false
 			}
 			
 		}
-	
+if text[0] = ""
+{
+instance_destroy();	
+exit;
+}
 	}
+	
+
 
 
 //-------------------------------------typin--------------------------

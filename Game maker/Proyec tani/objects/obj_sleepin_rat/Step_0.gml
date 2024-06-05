@@ -5,7 +5,7 @@ if instance_exists(obj_neco)
 	or place_meeting(x, y - 2, obj_neco) && obj_neco.face == DOWN
 	or place_meeting(x + 2, y, obj_neco) && obj_neco.face == LEFT
 	{
-		if keyboard_check_pressed(ord("Z")) && !instance_exists(obj_textbox) && global.iLifted == noone
+		if keyboard_check_pressed(ord("C")) && !instance_exists(obj_textbox) && global.iLifted == noone
 		{
 		lifted = true;
 		global.iLifted = id;

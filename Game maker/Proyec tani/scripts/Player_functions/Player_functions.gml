@@ -37,7 +37,7 @@ if z > 0
 if(keyboard_check_pressed(vk_shift) && jump == false) 
 	{
 		move_spd = 2.5;
-		image_speed = 2;
+		image_speed = 1.65;
 	}
 if(keyboard_check_released(vk_shift))
 	{

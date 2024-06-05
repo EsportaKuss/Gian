@@ -6,7 +6,7 @@ right_key = keyboard_check(vk_right);
 left_key = keyboard_check(vk_left); 
 up_key = keyboard_check(vk_up); 
 down_key = keyboard_check(vk_down); 
-
+accept_key = keyboard_check_released(ord("C"))
 attack_key = keyboard_check_released(ord("Z"))
 
 if(keyboard_check_pressed(ord("R")))
