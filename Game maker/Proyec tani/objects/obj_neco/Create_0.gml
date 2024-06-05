@@ -1,6 +1,7 @@
 xspd = 0;
 yspd = 0;
 move_spd = 1.5;
+hsp = 1;
 
 sprite[RIGHT] = spr_nyko_right;
 sprite[UP] = spr_nyko_up;
@@ -18,7 +19,7 @@ hop = false;
 jump_cooldown = 0;
 wj_x = 0;
 wj_y = 0;
-
+key = false;
 invulnerable = 0;
 
 state = PLAYERSTATE.FREE;

@@ -137,6 +137,22 @@ function scr_text(_string){
 		speaker_sprite[page_number] = spr_retrato_andrea;
 		snd[page_number] = snd_niky_voice;
 		break;
+		
+		case "Mateo":
+		speaker_sprite[page_number] = spr_retrato_mateo;
+		snd[page_number] = snd_niky_voice;
+		break;
+		
+		case "San Juan":
+		speaker_sprite[page_number] = spr_sanjuan;
+		snd[page_number] = snd_niky_voice;
+		break;
+		
+		case "Mama":
+		speaker_sprite[page_number] = spr_retrato_mama;
+		snd[page_number] = snd_niky_voice;
+		break;
+		
 		}
 	}
 	

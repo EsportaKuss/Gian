@@ -5,12 +5,9 @@ switch(_text_id) {
 	
 //-----------------------------INTRO--------------------------//
 	case "intro":
-	with (obj_textbox) {
-	x_displacement_spr = 20;
-	y_displacement_spr = 120;
-	}
-	scr_text("Hola", "Andrea");
-	scr_text("Hola2", "Andrea");
+	
+	scr_text("Hace una vez...en las zonas elevadas de San juan de Lurigancho", "San Juan");
+	
 with (obj_textbox) 
 	{
 		global.room_to = rm_andrea_i;
@@ -22,7 +19,7 @@ with (obj_textbox)
 	
 		//-----------------------------BEDROOM IRREAL--------------------------//
 	 case "andrea_i_to_sala_i":
-	 scr_text("Quieres salir?");
+	 scr_text("¿Quieres salir?");
 		 scr_option("Si","andrea_i - sala_i")
 		 scr_option("No","quedarte")
 	break;
@@ -37,12 +34,12 @@ with (obj_textbox)
 		break;
 	
 		case "quedarte":
-		scr_text("Estas feliz quedandote aca.");
+		scr_text("Estás feliz quedándote acá.");
 		break;
 	
 	case "bed":
 	scr_text("Tu cama.");
-	scr_text("Esta llena de plumas...");
+	scr_text("Está llena de plumas...");
 	break;
 	
 	case "closet_i":
@@ -55,22 +52,28 @@ with (obj_textbox)
 				text_id = "open closet";
 				image_index = 1
 				}
-			scr_text("Obtuviste cupón.");
-				scr_text_color(10, 25, c_yellow, c_yellow, c_yellow, c_yellow);
+			scr_text("Obtuviste llave.");
+				scr_text_color(10, 26, c_yellow, c_yellow, c_yellow, c_yellow);
 			InventoryAdd(obj_inventory, 0);
-		break;
+			obj_neco.key = 1;
+			break;
 			case "closet - leave":
-			scr_text("Mejor dejar las cosas como estan.");
-		break;
+			scr_text("Mejor dejar las cosas como están.");
+			break;
 		
-	case "open closet":
-	scr_text("Solo se mantiene la memoria del cupón.");
+			case "open closet":
+			scr_text("Solo se mantiene la memoria de la llave.");
+			break;
+	
+	case "osito":
+	scr_text("Tu mejor amigo.");
+	scr_text("Siempre puedes confiar en el...");
 	break;
 	
 	//-----------------------------SALA IRREAL --------------------------//
 	//a andrea_i
 	case "sala_i_to_andrea_i":
-	 scr_text("Quieres salir?");
+	 scr_text("¿Quieres salir?");
 		 scr_option("Si","sala_i - andrea_i")
 		 scr_option("No","quedarte")
 	break;
@@ -86,7 +89,7 @@ with (obj_textbox)
 	
 	//a cuarto mama_i y regreso a sala_i
 		case "sala_i_to_mama_i":
-	 scr_text("Quieres salir?");
+	 scr_text("¿Quieres salir?");
 		 scr_option("Si","sala_i - mama_i")
 		 scr_option("No","quedarte")
 	break;
@@ -101,7 +104,7 @@ with (obj_textbox)
 		break;
 	
 	case "mama_i_to_sala_i":
-	 scr_text("Quieres salir?");
+	 scr_text("¿Quieres salir?");
 		 scr_option("Si","mama_i - sala_i")
 		 scr_option("No","quedarte")
 	break;
@@ -117,7 +120,7 @@ with (obj_textbox)
 		
 		//a cuarto mateo_i y regreso a sala_i
 		case "sala_i_to_mateo_i":
-	 scr_text("Quieres salir?");
+	 scr_text("¿Quieres salir?");
 		 scr_option("Si","sala_i - mateo_i")
 		 scr_option("No","quedarte")
 	break;
@@ -133,7 +136,7 @@ with (obj_textbox)
 		
 
 		case "mateo_i_to_sala_i":
-	 scr_text("Quieres salir?");
+	 scr_text("¿Quieres salir?");
 		 scr_option("Si","mateo_i - sala_i")
 		 scr_option("No","quedarte")
 	break;
@@ -152,27 +155,143 @@ with (obj_textbox)
 		//a calle_i ***y regreso a sala_i
 		
 		case "sala_i_to_calle_i":
-	 scr_text("Quieres salir?");
+	 scr_text("¿Quieres salir?");
 		 scr_option("Si","sala_i - calle_i")
 		 scr_option("No","quedarte")
 	break;
 	
 		case "sala_i - calle_i":
+		if obj_neco.key == 1 {
 		with instance_create_depth(obj_neco.x,obj_neco.y,depth,obj_warp)	
 		{
 		target_rm = rm_calle_i;
-		target_x = 161;
-		target_y = 50;
+		target_x = 56;
+		target_y = 275;
+		}
+		}
+		else 
+		{
+		 scr_text("Esta cerrada.");	
 		}
 		break;
 		
+		// objeto watcher
+		case "sala_i_watcher":
+		scr_text("...");
+		with (obj_textbox) 
+		{
+		x_displacement_spr = 20;
+		y_displacement_spr = 120;
+		}
+		scr_text("¿Hola?","Andrea");
+		scr_text("La figura te resulta familiar.");
+		break;
 		
+		case "sala_i_televisor":
+		with (obj_textbox) 
+		{
+		x_displacement_spr = 20;
+		y_displacement_spr = 120;
+		}
+		scr_text("Está muy borroso...no logro distinguir nada.","Andrea");
+		break;
 		
+		case "sala_i_barrier":
+		scr_text("Todo está sumido en la penumbra.");
+		break;
 		
+		//-----------------------------CUARTO MATEO --------------------------//
+		//dialogo con mateo
+		case "mateo_i_1":
+		with (obj_textbox) 
+		{
+		x_displacement_spr = 30;
+		y_displacement_spr = 128;
+		}
+		scr_text("Hola hermanita, es un lindo día...","Mateo");
+		scr_text_float(0, 65)
+		scr_text("¿No es cierto?","Mateo");
+			scr_option("Si","mateo_i_1 - si")
+			scr_option("Cuestionar","mateo_i_1 - cuestionar")
+		break;
 		
+		case "mateo_i_1 - si":
+		with (obj_textbox) 
+		{
+		x_displacement_spr = 20;
+		y_displacement_spr = 120;
+		}
+		scr_text("Supongo que sí...","Andrea");
+		break;
+		
+		case "mateo_i_1 - cuestionar":
+		with (obj_textbox) 
+		{
+		x_displacement_spr = 20;
+		y_displacement_spr = 120;
+		}
+		scr_text("¿Mateo?","Andrea");
+		scr_text("No lo sé...","Andrea");
+		scr_text("Me siento extraña...","Andrea");
+		
+		with (obj_textbox) 
+		{
+		x_displacement_spr = 30;
+		y_displacement_spr = 128;
+		}
+		scr_text("...","Mateo");
+		
+		break;
+		
+		//-----------------------------CUARTO MAMA --------------------------//
+		case "mami_i_1":
+		with (obj_textbox) 
+				{
+				x_displacement_spr = 20;
+				y_displacement_spr = 130;
+				}
+		scr_text("¡HIJITA! ¿Qué haces?");
+		scr_text_shake(0,30);
+		scr_text("Estas enferma...tienes que descansar.","Mama");
+		scr_text("Regresa a tu cama...");
+			scr_option("Si","mama_i_1 - si")
+			scr_option("Cuestionar","mama_i_1 - cuestionar")
+		break;
+		
+			case "mama_i_1 - si":
+			with (obj_textbox) 
+				{
+				x_displacement_spr = 20;
+				y_displacement_spr = 120;
+				}
+			scr_text("Okay mami...ahi regreso pronto.","Andrea");
+			with (obj_mama) {text_id = "mama_i_v1_1";}
+			break;
+		
+			case "mama_i_1 - cuestionar":
+				with (obj_textbox) 
+				{
+				x_displacement_spr = 20;
+				y_displacement_spr = 120;
+				}
+			scr_text("N-No estoy enferma...","Andrea");
+			with (obj_mama) {text_id = "mama_i_v2_1";}
+			break;
+			
+		case "mama_i_v1_1":
+		with (obj_textbox) 
+				{
+				x_displacement_spr = 20;
+				y_displacement_spr = 130;
+				}
+			scr_text("Te quiero mucho Andrea.","Mama");
+			break;
+		
+			case "mama_i_v2_1":
+			scr_text("...");
+			break;
+			
 		////previous room
-	
-	
 	case "mouse hole":
 	scr_text("Un agujero de ratón");
 	global.MouseHole = 1;

@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_barrier",
-  "bboxMode":0,
-  "bbox_bottom":18,
+  "bboxMode":2,
+  "bbox_bottom":19,
   "bbox_left":0,
   "bbox_right":28,
   "bbox_top":0,

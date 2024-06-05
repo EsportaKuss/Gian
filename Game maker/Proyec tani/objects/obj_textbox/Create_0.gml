@@ -49,3 +49,5 @@ blank = false;
 //imagen
 x_displacement_spr = 0;
 y_displacement_spr = 0;
+xscale_displacement_spr = 1;
+yscale_displacement_spr = 1;

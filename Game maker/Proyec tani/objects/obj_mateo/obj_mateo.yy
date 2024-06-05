@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_mateo",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_mateo",
   "overriddenProperties":[],
@@ -9,7 +13,10 @@
     "name":"Charac",
     "path":"folders/Objects/Charac.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interect_par",
+    "path":"objects/obj_interect_par/obj_interect_par.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,6 +38,9 @@
     "name":"spr_mateo",
     "path":"sprites/spr_mateo/spr_mateo.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_mama_i1",
+    "path":"sprites/spr_mama_i1/spr_mama_i1.yy",
+  },
   "visible":true,
 }
