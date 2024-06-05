@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sala",
-    "path":"folders/Sprites/Rooms/Sala.yy",
+    "name":"Fondos",
+    "path":"folders/Sprites/Rooms/Fondos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

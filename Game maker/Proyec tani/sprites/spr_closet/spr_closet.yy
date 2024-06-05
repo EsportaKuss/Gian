@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Bedroom",
-    "path":"folders/Sprites/Rooms/Bedroom.yy",
+    "name":"Cuarto Andrea",
+    "path":"folders/Sprites/Rooms/Cuarto Andrea.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
