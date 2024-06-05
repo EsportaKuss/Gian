@@ -32,7 +32,7 @@
   "origin":9,
   "parent":{
     "name":"Fight",
-    "path":"folders/Sprites/Niky/Fight.yy",
+    "path":"folders/Sprites/Personajes/Niky/Fight.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

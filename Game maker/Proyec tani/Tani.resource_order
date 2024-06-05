@@ -1,11 +1,14 @@
 {
   "FolderOrderSettings":[
     {"name":"Bedroom","order":1,"path":"folders/Objects/Bedroom.yy",},
+    {"name":"Charac","order":13,"path":"folders/Objects/Charac.yy",},
     {"name":"Enemies","order":2,"path":"folders/Objects/Enemies.yy",},
     {"name":"Managers","order":3,"path":"folders/Objects/Managers.yy",},
     {"name":"Meta objs","order":4,"path":"folders/Objects/Meta objs.yy",},
     {"name":"Sala","order":12,"path":"folders/Objects/Sala.yy",},
     {"name":"Streets","order":5,"path":"folders/Objects/Streets.yy",},
+    {"name":"Personajes","order":16,"path":"folders/Sprites/Personajes.yy",},
+    {"name":"Mateo","order":1,"path":"folders/Sprites/Personajes/Mateo.yy",},
     {"name":"Fondos","order":5,"path":"folders/Sprites/Rooms/Fondos.yy",},
     {"name":"Sala","order":6,"path":"folders/Sprites/Rooms/Sala.yy",},
     {"name":"Streets","order":1,"path":"folders/Sprites/Rooms/Streets.yy",},
@@ -31,6 +34,7 @@
     {"name":"obj_j_wall","order":1,"path":"objects/obj_j_wall/obj_j_wall.yy",},
     {"name":"obj_jump","order":7,"path":"objects/obj_jump/obj_jump.yy",},
     {"name":"obj_kicked_out","order":8,"path":"objects/obj_kicked_out/obj_kicked_out.yy",},
+    {"name":"obj_mateo","order":1,"path":"objects/obj_mateo/obj_mateo.yy",},
     {"name":"obj_mist","order":3,"path":"objects/obj_mist/obj_mist.yy",},
     {"name":"obj_open_box","order":1,"path":"objects/obj_open_box/obj_open_box.yy",},
     {"name":"obj_p_bg","order":3,"path":"objects/obj_p_bg/obj_p_bg.yy",},
