@@ -1,0 +1,1 @@
+text_id = "sts trash container empty"
