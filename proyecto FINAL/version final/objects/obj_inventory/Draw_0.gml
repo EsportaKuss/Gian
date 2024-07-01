@@ -7,7 +7,7 @@ view_y = camera_get_view_y(camera_get_active());
 
 //player interaction
 if keyboard_check_pressed(ord("I")) && !instance_exists(obj_textbox) {global.using_inventory = true;}
-if keyboard_check_pressed(ord("C")) or instance_exists(obj_textbox) {global.using_inventory = false; x = 335; percent = 0;} 
+if keyboard_check_pressed(ord("X")) or instance_exists(obj_textbox) {global.using_inventory = false; x = 335; percent = 0;} 
 
 if global.using_inventory == true {
 //draw back box
@@ -47,10 +47,10 @@ for (var i = 0; i < INVENTORY_SLOTS; i += 1){
 }
 else {
 	if !instance_exists(obj_textbox) && !instance_exists(obj_jump) && room == rm_bedroom {
-		if global.Language == true{draw_text_color(15, 223, "[Z] Inspeccionar", c_white, c_white, c_white, c_white, 0.5);
-	draw_text_color(180, 223, "[C] Inventario", c_white, c_white, c_white, c_white, 0.5);}
+		if global.Language == true{draw_text_color(15, 223, "[C] Inspeccionar", c_white, c_white, c_white, c_white, 0.5);
+	draw_text_color(180, 223, "[I] Inventario", c_white, c_white, c_white, c_white, 0.5);}
 		else{
-	draw_text_color(15, 223, "[Z] Inspect", c_white, c_white, c_white, c_white, 0.5);
-	draw_text_color(180, 223, "[C] Inventory", c_white, c_white, c_white, c_white, 0.5);}
+	draw_text_color(15, 223, "[C] Inspect", c_white, c_white, c_white, c_white, 0.5);
+	draw_text_color(180, 223, "[I] Inventory", c_white, c_white, c_white, c_white, 0.5);}
 	}
 }

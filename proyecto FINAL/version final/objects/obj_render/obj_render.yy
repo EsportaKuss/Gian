@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_box",
+  "%Name":"obj_render",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_box",
+  "name":"obj_render",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cuarto Andrea",
-    "path":"folders/Objects/Cuarto Andrea.yy",
+    "name":"Managers",
+    "path":"folders/Objects/Managers.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interect_par",
-    "path":"objects/obj_interect_par/obj_interect_par.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_box",
-    "path":"sprites/spr_box/spr_box.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

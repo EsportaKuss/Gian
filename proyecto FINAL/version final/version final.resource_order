@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"Horri-fi","order":1,"path":"folders/Horri-fi.yy",},
+    {"name":"About","order":1,"path":"folders/Horri-fi/About.yy",},
     {"name":"Charac","order":11,"path":"folders/Objects/Charac.yy",},
     {"name":"Cuarto Calle","order":13,"path":"folders/Objects/Cuarto Calle.yy",},
     {"name":"Cuarto Mateo","order":12,"path":"folders/Objects/Cuarto Mateo.yy",},
@@ -20,6 +22,8 @@
     {"name":"Streets","order":1,"path":"folders/Sprites/Rooms/Streets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Setup","order":1,"path":"notes/Setup/Setup.yy",},
+    {"name":"Thanks","order":2,"path":"notes/Thanks/Thanks.yy",},
     {"name":"obj_barrier","order":3,"path":"objects/obj_barrier/obj_barrier.yy",},
     {"name":"obj_bear","order":5,"path":"objects/obj_bear/obj_bear.yy",},
     {"name":"obj_bed","order":1,"path":"objects/obj_bed/obj_bed.yy",},
@@ -53,6 +57,7 @@
     {"name":"obj_plate","order":4,"path":"objects/obj_plate/obj_plate.yy",},
     {"name":"obj_progress","order":12,"path":"objects/obj_progress/obj_progress.yy",},
     {"name":"obj_rat","order":1,"path":"objects/obj_rat/obj_rat.yy",},
+    {"name":"obj_render","order":14,"path":"objects/obj_render/obj_render.yy",},
     {"name":"obj_rock_wall","order":1,"path":"objects/obj_rock_wall/obj_rock_wall.yy",},
     {"name":"obj_save","order":13,"path":"objects/obj_save/obj_save.yy",},
     {"name":"obj_sleepin_rat","order":9,"path":"objects/obj_sleepin_rat/obj_sleepin_rat.yy",},
@@ -83,6 +88,7 @@
     {"name":"Camera_Functions","order":9,"path":"scripts/Camera_Functions/Camera_Functions.yy",},
     {"name":"Enemy_functions","order":7,"path":"scripts/Enemy_functions/Enemy_functions.yy",},
     {"name":"Frank_Functions","order":8,"path":"scripts/Frank_Functions/Frank_Functions.yy",},
+    {"name":"lib_horrifi","order":2,"path":"scripts/lib_horrifi/lib_horrifi.yy",},
     {"name":"Player_functions","order":5,"path":"scripts/Player_functions/Player_functions.yy",},
     {"name":"script_Cutscene_Functions","order":6,"path":"scripts/script_Cutscene_Functions/script_Cutscene_Functions.yy",},
     {"name":"script_game_text","order":2,"path":"scripts/script_game_text/script_game_text.yy",},
@@ -91,6 +97,7 @@
     {"name":"script_rooms","order":10,"path":"scripts/script_rooms/script_rooms.yy",},
     {"name":"script_textbox_functions","order":1,"path":"scripts/script_textbox_functions/script_textbox_functions.yy",},
     {"name":"sq_Frank_Encounter","order":2,"path":"sequences/sq_Frank_Encounter/sq_Frank_Encounter.yy",},
+    {"name":"shd_horrifi","order":3,"path":"shaders/shd_horrifi/shd_horrifi.yy",},
     {"name":"snd_bg_music","order":8,"path":"sounds/snd_bg_music/snd_bg_music.yy",},
     {"name":"snd_door_opening","order":4,"path":"sounds/snd_door_opening/snd_door_opening.yy",},
     {"name":"snd_door","order":2,"path":"sounds/snd_door/snd_door.yy",},
