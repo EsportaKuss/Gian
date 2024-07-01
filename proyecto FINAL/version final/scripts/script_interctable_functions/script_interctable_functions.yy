@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"script_interctable_functions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_interctable_functions",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

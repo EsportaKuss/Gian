@@ -1,0 +1,1 @@
+if global.GamePaused {exit}
