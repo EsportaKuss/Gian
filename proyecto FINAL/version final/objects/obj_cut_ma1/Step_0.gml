@@ -21,15 +21,6 @@ else
 
 
 
-
-
-
-
-
-
-
-
-
 //Warp in
 if (timer_warp<=100)
 {

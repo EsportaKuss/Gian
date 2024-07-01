@@ -23,6 +23,8 @@ switch (state) {
 	break;
 	case PLAYERSTATE.HURT: 
 	break;
+	case PLAYERSTATE.INVISIBLE: player_invisible(obj_progress.cut2_done,0)
+	break;
 }
 //depth nya
 depth = -bbox_bottom;
@@ -34,3 +36,5 @@ instance_create_depth(286,232, -5, obj_he_took)
 with (obj_camera) {follow = obj_he_took;}
 instance_destroy()
 }
+
+

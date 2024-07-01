@@ -50,3 +50,15 @@ else speed = 0;
 		}
 	}
 }
+	
+	
+	current_text = obj_progress.mateo_progress;
+	text_id = text_array[current_text];
+	
+	if current_text>1 && current_text <7
+	{
+	if !instance_exists(obj_textbox)
+	{
+	create_textbox(text_id); //Se crea dialogo
+	}
+	}

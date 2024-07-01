@@ -270,3 +270,27 @@ with global.iLifted
 	}
 	global.iLifted = noone;
 }
+	
+function player_invisible(_cut,_timer)
+{
+if _cut == false
+{
+obj_neco.visible = false;	
+}
+else 
+{
+obj_neco.image_alpha = 0;	
+while (_timer<=100)
+{
+obj_neco.visible = true;	
+obj_neco.image_alpha+= 0.01;
+obj_neco.image_blend = make_colour_rgb(rgb1, rgb2, rgb3);
+obj_neco.rgb1+=2.55;
+obj_neco.rgb2+=2.55;
+obj_neco.rgb3+=2.55;
+_timer+=1;
+}
+obj_neco.state = PLAYERSTATE.FREE
+}
+
+}

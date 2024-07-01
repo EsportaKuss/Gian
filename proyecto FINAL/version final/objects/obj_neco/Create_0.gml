@@ -30,3 +30,10 @@ animationEndScript = -1;
 //xd
 image_speed=0;
 depth = -bbox_bottom;
+
+
+//FADE
+image_alpha = 0;
+rgb1 = 0
+rgb2 = 0;
+rgb3 = 0;

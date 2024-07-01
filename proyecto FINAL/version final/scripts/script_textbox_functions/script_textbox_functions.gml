@@ -153,6 +153,15 @@ function scr_text(_string){
 		snd[page_number] = snd_niky_voice;
 		break;
 		
+		case "Cuervo":
+		speaker_sprite[page_number] = spr_retrato_cuervo;
+		snd[page_number] = snd_owner;
+		break;
+		
+		case "Mateo Adol":
+		speaker_sprite[page_number] = spr_retrato_mateo_adol;
+		snd[page_number] = snd_niky_voice;
+		break;
 		}
 	}
 	

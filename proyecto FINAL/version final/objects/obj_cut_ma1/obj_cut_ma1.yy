@@ -9,8 +9,8 @@
   "name":"obj_cut_ma1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Charac",
+    "path":"folders/Objects/Charac.yy",
   },
   "parentObjectId":{
     "name":"obj_interect_par",
